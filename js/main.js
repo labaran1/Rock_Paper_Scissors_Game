@@ -129,6 +129,7 @@ function showWinner(winner, computerChoice){
 
     modal.style.display = ` block`;
  
+    setTimeout(()=>modal.style.display='none',2000)
 
 
 }
